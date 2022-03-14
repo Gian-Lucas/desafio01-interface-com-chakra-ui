@@ -1,0 +1,9 @@
+{
+  "types": [
+    { "text": "vida noturna", "imageName": "cocktail.svg" },
+    { "text": "praia", "imageName": "surf.svg" },
+    { "text": "moderno", "imageName": "building.svg" },
+    { "text": "clássico", "imageName": "museum.svg" },
+    { "text": "e mais...", "imageName": "earth.svg" }
+  ]
+}
