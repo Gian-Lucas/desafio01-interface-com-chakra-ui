@@ -15,7 +15,6 @@ export function ContinentsSlide() {
     <Swiper
       style={{
         maxWidth: "1080px",
-        "--swiper-theme-color": "#FFBA08",
       }}
       slidesPerView={1}
       loop={true}
