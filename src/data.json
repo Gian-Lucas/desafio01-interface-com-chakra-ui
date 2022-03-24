@@ -1,0 +1,309 @@
+{
+  "types": [
+    { "text": "vida noturna", "imageName": "cocktail.svg" },
+    { "text": "praia", "imageName": "surf.svg" },
+    { "text": "moderno", "imageName": "building.svg" },
+    { "text": "clássico", "imageName": "museum.svg" },
+    { "text": "e mais...", "imageName": "earth.svg" }
+  ],
+  "continents": [
+    {
+      "name": "Europa",
+      "slug": "europe",
+      "info": "Terceiro continente mais populoso do mundo.",
+      "bio": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
+      "totalCountries": "50",
+      "totalLanguages": "99",
+      "urlImage": "/images/europe.svg",
+      "cities": [
+        {
+          "urlImage": "/images/london.svg",
+          "name": "Londres",
+          "country": {
+            "name": "Reino Unido",
+            "flag": "https://flagcdn.com/w320/gb.png"
+          }
+        },
+        {
+          "urlImage": "/images/paris.svg",
+          "name": "Paris",
+          "country": {
+            "name": "França",
+            "flag": "https://flagcdn.com/w320/fr.png"
+          }
+        },
+        {
+          "urlImage": "/images/rome.svg",
+          "name": "Roma",
+          "country": {
+            "name": "Itália",
+            "flag": "https://flagcdn.com/w320/it.png"
+          }
+        },
+        {
+          "urlImage": "/images/prague.svg",
+          "name": "Praga",
+          "country": {
+            "name": "República Tcheca",
+            "flag": "https://flagcdn.com/w320/cz.png"
+          }
+        },
+        {
+          "urlImage": "/images/amsterdam.svg",
+          "name": "Amsterdã",
+          "country": {
+            "name": "Holanda",
+            "flag": "https://flagcdn.com/w320/nl.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "América do Norte",
+      "slug": "north-america",
+      "info": "Localiza-se a maior ilha do mundo: a Groenlândia.",
+      "bio": "A América do Norte é o terceiro maior continente do mundo, com uma área que ultrapassa 24 milhões de quilômetros quadrados. Para se ter uma ideia, o continente norte-americano possui mais de 579 milhões de habitantes de várias origens e culturas. Conhecida por ser uma região bem-desenvolvida e como uma natureza bonita, a América do Norte, assim como os demais continentes, é uma atração digna de visita.",
+      "totalCountries": "03",
+      "totalLanguages": "99",
+      "urlImage": "/images/north-america.jpg",
+      "cities": [
+        {
+          "urlImage": "/images/mexico-city.jpg",
+          "name": "Cidade do México",
+          "country": {
+            "name": "México",
+            "flag": "https://flagcdn.com/w320/mx.png"
+          }
+        },
+        {
+          "urlImage": "/images/toronto.jpg",
+          "name": "Toronto",
+          "country": {
+            "name": "Canadá",
+            "flag": "https://flagcdn.com/w320/ca.png"
+          }
+        },
+        {
+          "urlImage": "/images/miami.jpg",
+          "name": "Miami",
+          "country": {
+            "name": "Estados Unidos",
+            "flag": "https://flagcdn.com/w320/us.png"
+          }
+        },
+        {
+          "urlImage": "/images/cancun.jpg",
+          "name": "Cancún",
+          "country": {
+            "name": "México",
+            "flag": "https://flagcdn.com/w320/mx.png"
+          }
+        },
+        {
+          "urlImage": "/images/las-vegas.jpg",
+          "name": "Las Vegas",
+          "country": {
+            "name": "Estados Unidos",
+            "flag": "https://flagcdn.com/w320/us.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "América do Sul",
+      "slug": "south-america",
+      "info": "Localiza-se a Floresta Amazônica, a região de maior biodiversidade do mundo.",
+      "bio": "A América do Sul abriga dois dos maiores países do mundo: Brasil e Argentina. O Brasil cobre mais da metade da massa terrestre do continente, sendo que a Argentina é considerada como o maior país de língua espanhola do mundo. Conhecida por Machu Picchu, as cataratas do Iguaçu, e o Salar de Uyuni, a América do Sul é uma experiência cultural de tirar o fôlego que precisa ser vivenciado por todos os tipos de viajantes.",
+      "totalCountries": "12",
+      "totalLanguages": "99",
+      "urlImage": "/images/south-america.jpg",
+      "cities": [
+        {
+          "urlImage": "/images/rio-de-janeiro.jpg",
+          "name": "Rio de Janeiro",
+          "country": {
+            "name": "Brasil",
+            "flag": "https://flagcdn.com/w320/br.png"
+          }
+        },
+        {
+          "urlImage": "/images/buenos-aires.jpg",
+          "name": "Buenos Aires",
+          "country": {
+            "name": "Argentina",
+            "flag": "https://flagcdn.com/w320/ar.png"
+          }
+        },
+        {
+          "urlImage": "/images/lima.jpg",
+          "name": "Lima",
+          "country": {
+            "name": "Peru",
+            "flag": "https://flagcdn.com/w320/pe.png"
+          }
+        },
+        {
+          "urlImage": "/images/montevideu.jpg",
+          "name": "Montevidéu",
+          "country": {
+            "name": "Uruguai",
+            "flag": "https://flagcdn.com/w320/uy.png"
+          }
+        },
+        {
+          "urlImage": "/images/santiago.jpg",
+          "name": "Santiago",
+          "country": {
+            "name": "Chile",
+            "flag": "https://flagcdn.com/w320/cl.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ásia",
+      "slug": "asia",
+      "info": "Tão vasta que quase um terço da extensão de terra do planeta faz parte desse continente.",
+      "bio": "Considerada o maior continente do mundo, a Ásia abriga quase a metade da população mundial entre seus mais de 4 bilhões de habitantes. Banhado pelos oceanos Glacial Ártico, Pacífico e Índico, o continente asiático possui 48 países, 11 fusos horários diferentes e uma grande pluralidade cultural. A diversidade do continente une tradição e modernidade em sua culinária, arquitetura e hábitos de vida.",
+      "totalCountries": "50",
+      "totalLanguages": "99",
+      "urlImage": "/images/asia.jpg",
+      "cities": [
+        {
+          "urlImage": "/images/toquio.jpg",
+          "name": "Tóquio",
+          "country": {
+            "name": "Japão",
+            "flag": "https://flagcdn.com/w320/jp.png"
+          }
+        },
+        {
+          "urlImage": "/images/pequim.jpg",
+          "name": "Pequim",
+          "country": {
+            "name": "China",
+            "flag": "https://flagcdn.com/w320/cn.png"
+          }
+        },
+        {
+          "urlImage": "/images/seul.jpg",
+          "name": "Seul",
+          "country": {
+            "name": "Coreia do Sul",
+            "flag": "https://flagcdn.com/w320/kr.png"
+          }
+        },
+        {
+          "urlImage": "/images/hong-kong.jpg",
+          "name": "Hong Kong",
+          "country": {
+            "name": "China",
+            "flag": "https://flagcdn.com/w320/cn.png"
+          }
+        },
+        {
+          "urlImage": "/images/istambul.jpg",
+          "name": "Istambul",
+          "country": {
+            "name": "Turquia",
+            "flag": "https://flagcdn.com/w320/tr.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "África",
+      "slug": "africa",
+      "info": "Abriga uma enorme variedade climática e cultural com desertos, savanas e florestas.",
+      "bio": "O continente africano é banhado pelo oceano Atlântico e Índico e ainda pelo Mar Mediterrâneo. Além disso, a África é composta por 55 países que abrigam uma enorme variedade climática e cultural com desertos, savanas e florestas. O continente, com mais de um 1 bilhão de habitantes, também é considerado como a terra natal do homo sapiens, segundo os cientistas.",
+      "totalCountries": "54",
+      "totalLanguages": "99",
+      "urlImage": "/images/africa.jpg",
+      "cities": [
+        {
+          "urlImage": "/images/cairo.jpg",
+          "name": "Cairo",
+          "country": {
+            "name": "Egito",
+            "flag": "https://flagcdn.com/w320/eg.png"
+          }
+        },
+        {
+          "urlImage": "/images/marraquexe.jpg",
+          "name": "Marraquexe",
+          "country": {
+            "name": "Marrocos",
+            "flag": "https://flagcdn.com/w320/ma.png"
+          }
+        },
+        {
+          "urlImage": "/images/luanda.jpg",
+          "name": "Luanda",
+          "country": {
+            "name": "Angola",
+            "flag": "https://flagcdn.com/w320/ao.png"
+          }
+        },
+        {
+          "urlImage": "/images/dakar.jpg",
+          "name": "Dakar",
+          "country": {
+            "name": "Senegal",
+            "flag": "https://flagcdn.com/w320/sn.png"
+          }
+        },
+        {
+          "urlImage": "/images/nairobi.jpg",
+          "name": "Nairóbi",
+          "country": {
+            "name": "Quênia",
+            "flag": "https://flagcdn.com/w320/ke.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Oceania",
+      "slug": "oceania",
+      "info": "Considerado o menor continente do mundo e composto por diversas ilhas de culturas diferentes.",
+      "bio": "A Oceania é considerada o menor continente do mundo e é composta por diversas ilhas de culturas diferentes. Cerca de 90% de seu território é ocupado por um único país: a Austrália. O continente é banhado pelos oceanos Pacífico e Índico e conta com aproximadamente 37 milhões de habitantes. A Oceania conta com 14 países e é conhecida por ser um dos melhores continentes do mundo para viver.",
+      "totalCountries": "14",
+      "totalLanguages": "99",
+      "urlImage": "/images/oceania.jpg",
+      "cities": [
+        {
+          "urlImage": "/images/camberra.jpg",
+          "name": "Camberra",
+          "country": {
+            "name": "Austrália",
+            "flag": "https://flagcdn.com/w320/au.png"
+          }
+        },
+        {
+          "urlImage": "/images/sydney.jpg",
+          "name": "Sydney",
+          "country": {
+            "name": "Austrália",
+            "flag": "https://flagcdn.com/w320/au.png"
+          }
+        },
+        {
+          "urlImage": "/images/wellington.jpg",
+          "name": "Wellington",
+          "country": {
+            "name": "Nova Zelândia",
+            "flag": "https://flagcdn.com/w320/nz.png"
+          }
+        },
+        {
+          "urlImage": "/images/melbourne.jpg",
+          "name": "Melbourne",
+          "country": {
+            "name": "Austrália",
+            "flag": "https://flagcdn.com/w320/au.png"
+          }
+        }
+      ]
+    }
+  ]
+}

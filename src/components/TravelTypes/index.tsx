@@ -1,10 +1,10 @@
 import { Flex, Wrap, WrapItem } from "@chakra-ui/react";
 import { TravelTypeCard } from "../TravelTypeCard";
 
-import travelTypes from "../../travelTypes.json";
+import data from "../../data.json";
 
 export function TravelTypes() {
-  const { types } = travelTypes;
+  const { types } = data;
   return (
     <Flex>
       <Wrap

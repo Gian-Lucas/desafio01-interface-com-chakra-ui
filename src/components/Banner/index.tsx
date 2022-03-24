@@ -20,11 +20,15 @@ export function Banner() {
       justifyContent="space-around"
     >
       <Box>
-        <Heading fontWeight="500" color="light.headingsAndText">
-          5 Continentes, infinitas possibilidades.
+        <Heading
+          fontSize={["20", "28", "36"]}
+          fontWeight="500"
+          color="light.headingsAndText"
+        >
+          6 Continentes, infinitas possibilidades.
         </Heading>
 
-        <Text mt="5" color="light.info">
+        <Text mt="5" color="light.info" fontSize={["14", "18", "20"]}>
           Chegou a hora de tirar do papel a viagem que você sempre sonhou.
         </Text>
       </Box>

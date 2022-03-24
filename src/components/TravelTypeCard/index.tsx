@@ -17,7 +17,7 @@ export function TravelTypeCard({ travelType }: TravelTypeCardProps) {
   if (!isMobile) {
     return (
       <Flex flexDir="column" alignItems="center">
-        <Text fontWeight="bold">
+        <Text fontWeight="bold" fontSize={["18", "20", "24"]}>
           <Text mr="2" as="span" color="highlight.yellow">
             •
           </Text>
@@ -29,7 +29,7 @@ export function TravelTypeCard({ travelType }: TravelTypeCardProps) {
   return (
     <Flex flexDir="column" alignItems="center">
       <Image boxSize="85" src={`/images/${imageName}`} />
-      <Text mt="5" fontWeight="bold">
+      <Text mt="5" fontWeight="bold" fontSize="24">
         {text}
       </Text>
     </Flex>
