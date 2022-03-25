@@ -11,6 +11,7 @@ import { GetServerSideProps } from "next";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 import { useState } from "react";
+import { CityCard } from "../components/CityCard";
 import { Header } from "../components/Header";
 
 import data from "../data.json";
@@ -41,9 +42,10 @@ export default function Continent(props) {
       <Flex
         justifyContent={["center", "start"]}
         alignItems={["center", "end"]}
-        bgImage={`url('${continent.urlImage}')`}
         w="100%"
-        bgPosition={["center", "center", "right"]}
+        bgSize="cover"
+        bgImage={`url('${continent.urlImage}')`}
+        bgPosition="center"
         height={["150", "300", "500"]}
       >
         <Heading
@@ -109,44 +111,7 @@ export default function Continent(props) {
             spacing="10"
           >
             {continent.cities.map((city) => {
-              return (
-                <WrapItem
-                  cursor="pointer"
-                  transition="0.3s"
-                  _hover={{
-                    transform: "scale(1.1)",
-                  }}
-                  key={city.name}
-                  w="fit-content"
-                  flexDir="column"
-                  borderBottom="1px"
-                  borderColor="highlight.yellow"
-                >
-                  <Image w={["256px"]} h="173px" src={`${city.urlImage}`} />
-                  <Flex
-                    bg="light.white"
-                    borderX="1px"
-                    borderColor="highlight.yellow"
-                    w="100%"
-                    px="5"
-                    justifyContent="space-between"
-                    alignItems="center"
-                  >
-                    <Box pt="5">
-                      <Heading fontSize="20">{city.name}</Heading>
-                      <Text my={["5"]} fontSize="16">
-                        {city.country.name}
-                      </Text>
-                    </Box>
-
-                    <Image
-                      boxSize="30"
-                      borderRadius="full"
-                      src={`${city.country.flag}`}
-                    />
-                  </Flex>
-                </WrapItem>
-              );
+              return <CityCard key={city.name} city={city} />;
             })}
           </Wrap>
         </Box>
