@@ -7,7 +7,7 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react";
 
-export function Banner() {
+export function BannerHome() {
   const isMobile = useBreakpointValue({
     base: false,
     md: true,
